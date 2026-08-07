@@ -1,0 +1,55 @@
+title: Rodrigo Rocha
+description: Desenvolvedor FullStack, apaixonado por tecnologia e inovação. Com experiência em desenvolvimento web e mobile, busco sempre aprimorar minhas habilidades e contribuir para projetos desafiadores.
+baseurl: ""
+url: https://piazzai.github.io/cvless
+
+theme: cvless
+
+# site settings
+taglong: Desenvolvedor FullStack, apaixonado por tecnologia e inovação.
+tagshort: Desenvolvedor FullStack
+
+# author settings
+author:
+  name: Rodrigo Rocha
+  email: rodrigorocha.dev0@gmail.com
+photo: assets/files/photo.jpg
+joblines:
+  - University of Jekyll
+  - Department of Themes
+  - 123 Main St, Anytown, USA
+address: Foobar Hall 1.23
+phone: +1 234 567 890
+
+# profile links
+profile:
+  facebook: https://www.facebook.com/username
+  x: https://x.com/username
+  mastodon: https://mastodon.social/@username
+  bluesky: https://bsky.app/profile/username.bsky.social
+  instagram: https://www.instagram.com/username
+  linkedin: https://www.linkedin.com/in/username
+  xing: https://www.xing.com/profile/username
+  stackoverflow: https://stackoverflow.com/users/0000000/username
+  medium: https://medium.com/@username
+  github: https://github.com/rodi38
+  cv: true
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+  
