@@ -23,15 +23,15 @@ phone: +1 234 567 890
 
 # profile links
 profile:
-  facebook: https://www.facebook.com/username
-  x: https://x.com/username
-  mastodon: https://mastodon.social/@username
-  bluesky: https://bsky.app/profile/username.bsky.social
-  instagram: https://www.instagram.com/username
-  linkedin: https://www.linkedin.com/in/username
-  xing: https://www.xing.com/profile/username
-  stackoverflow: https://stackoverflow.com/users/0000000/username
-  medium: https://medium.com/@username
+  # facebook: https://www.facebook.com/username
+  # x: https://x.com/username
+  # mastodon: https://mastodon.social/@username
+  # bluesky: https://bsky.app/profile/username.bsky.social
+  # instagram: https://www.instagram.com/username
+  linkedin: https://www.linkedin.com/in/rodrigo-rocha-ed1/
+  # xing: https://www.xing.com/profile/username
+  stackoverflow: https://stackoverflow.com/users/33011276/rodi38
+  medium: https://medium.com/@rodi38
   github: https://github.com/rodi38
   cv: true
 
