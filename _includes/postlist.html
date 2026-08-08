@@ -1,0 +1,16 @@
+<div>
+  {% for post in paginator.posts %}
+  <h1><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h1>
+  <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%B %e, %Y" }}</time>
+
+  {% assign preview = post.excerpt | strip_html | strip_newlines %}
+  {% if preview == "" %}
+    {% assign preview = post.content | strip_html | truncatewords: 35, "..." %}
+  {% else %}
+    {% assign preview = preview | truncatewords: 35, "..." %}
+  {% endif %}
+
+  <p class="lead">{{ preview }}</p>
+  <p><a href="{{ post.url | prepend: site.url }}">Read more →</a></p>
+  {% endfor %}
+</div>

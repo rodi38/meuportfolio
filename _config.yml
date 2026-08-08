@@ -1,7 +1,7 @@
 title: Rodrigo Rocha
 description: Desenvolvedor FullStack, apaixonado por tecnologia e inovação. Com experiência em desenvolvimento web e mobile, busco sempre aprimorar minhas habilidades e contribuir para projetos desafiadores.
 baseurl: ""
-url: https://piazzai.github.io/cvless
+url: https://rodi38.github.io/meuportifolio
 
 theme: cvless
 
@@ -13,7 +13,7 @@ tagshort: Desenvolvedor FullStack
 author:
   name: Rodrigo Rocha
   email: rodrigorocha.dev0@gmail.com
-photo: assets/files/photo.jpg
+photo: assets/files/photo.png
 joblines:
   - University of Jekyll
   - Department of Themes
@@ -49,6 +49,13 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+  permalink: /posts/:num/
+  title: ':title &middot; Page :num'
 
 sass:
   sourcemap: never
