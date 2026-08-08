@@ -3,16 +3,25 @@ layout: home
 title: Home
 ---
 
-# About
+# Sobre
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Sou um desenvolvedor fullstack com 1 ano de experiência na criação e modernização de aplicações web e mobile, atuando tanto no ambiente dinâmico de software house quanto no modelo freelancer. 
 
-This is the home page. It can be used for a short introduction. [Click here](cv) to see the full CV, and [here](assets/files/cv.pdf) to download a print version. The theme also ships with a blog: [click here](posts) to scroll posts from the most recent. Finally, [click here](404) to see a page that can't be found.
+Minha trajetória na tecnologia me proporcionou uma visão completa do ciclo de vida de um produto digital:
 
-By default, the theme only contains these few pages in order to stay lean and flexible. However, it can be easily extended to accommodate more pages, [collections](https://jekyllrb.com/docs/collections/), [categories, and tags](https://jekyllrb.com/docs/posts/#tags-and-categories).
+Suporte de TI Presencial (3 meses): Onde desenvolvi a base da minha resolução de problemas e a proximidade com as dores reais do usuário final.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Garantia de Qualidade / QA (4 meses): Onde me especializei em análise de requisitos, documentação de bugs e automação de testes, adquirindo um olhar crítico sobre estabilidade e regras de negócio.  
 
-Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
+Desenvolvimento FullStack (1 ano): Atuação direta no desenvolvimento e evolução de sistemas, equilibrando 8 meses em software house com a autonomia de projetos freelancers.  
 
-{% include archive.html %}
+
+No backend, tenho domínio na construção de APIs RESTful utilizando Java (Spring Boot), Node.js (NestJS/Fastify) e PHP (Laravel), aplicando Clean Architecture, SOLID e boas práticas de segurança (JWT/OAuth). No frontend e mobile, crio interfaces responsivas e de alto desempenho com React, React Native e TypeScript.  
+
+<!-- [projetos](portfolio) -->
+
+# Projetos
+
+Acesse o [portfólio](portfolio) para conferir as prévias dos meus projetos.
+
+<!-- {% include archive.html %} -->
