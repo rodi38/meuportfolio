@@ -1,7 +1,7 @@
 title: Rodrigo Rocha
 description: Desenvolvedor FullStack, apaixonado por tecnologia e inovação. Com experiência em desenvolvimento web e mobile, busco sempre aprimorar minhas habilidades e contribuir para projetos desafiadores.
-baseurl: "/meuportifolio"
-url: "https://rodi38.github.io"
+baseurl: ""
+url: "https://rodi38.github.io/meuportifolio"
 
 theme: cvless
 
