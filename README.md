@@ -1,4 +1,4 @@
-# meuportifolio
+# meuportfolio
 
 
-meu portifolio feito com jekyll
+meu portfolio feito com jekyll
