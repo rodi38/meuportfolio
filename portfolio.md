@@ -4,10 +4,10 @@ title: Projetos
 ---
 
 
-### Plataforma de gestão interna
-Uma solução fictícia para organizar processos, colaboradores e indicadores em um painel centralizado.
+### PetVac – controle de vacinação de pets
+App para tutores cadastrarem seus pets e acompanharem o histórico de vacinação, com backend próprio e app mobile.
 
-[Ver prévia do projeto]({{ site.baseurl }}{% post_url 2026-08-01-projeto-plataforma-gestao-interna %})
+[Ver detalhes do projeto]({{ site.baseurl }}{% post_url 2026-08-01-projeto-petvac %})
 
 ### App de delivery urbano
 Uma experiência fictícia para pedidos rápidos, rastreamento e comunicação entre clientes e restaurantes.
