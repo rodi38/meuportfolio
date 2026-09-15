@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body data-search-index="{{ '/search.json' | prepend: site.url }}">
+
+  <button id="search-toggle" class="search-fab" onclick="openSearch()" aria-label="Buscar">{% include svg/search.svg %}</button>
+  {% include search-modal.html %}
+
+  {% if page.title == "Home" %}{% include particles-home.html %}{% endif %}
+  {% if page.title == "404" %}{% include particles-404.html %}{% endif %}
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col col-sm-10 col-md-8 col-lg-6">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  <script src="{{ '/assets/js/bootstrap.min.js' | prepend: site.url }}"></script>
+  {% if page.title != "404" %}
+  <script src="{{ '/assets/js/darkmode.js' | prepend: site.url }}"></script>
+  {% endif %}
+  {% if page.title == "Home" or page.title == "404" %}
+  <script src="assets/js/particles.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  {% endif %}
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+  <script src="{{ '/assets/js/search.js' | prepend: site.url }}" defer></script>
+</body>
+
+</html>

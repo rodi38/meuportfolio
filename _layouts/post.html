@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article>
+  {% include header.html %}
+  <main>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+    <p class="lead">{{ page.lead }}</p>
+    {% if page.tags and page.tags.size > 0 %}
+    <ul class="post-tags">
+      {% for tag in page.tags %}
+      <li><button type="button" class="post-tag" onclick="searchTag('{{ tag }}')">{{ tag }}</button></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</article>

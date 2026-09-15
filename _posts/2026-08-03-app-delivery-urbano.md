@@ -3,6 +3,7 @@ layout: post
 title: "App de delivery urbano"
 date: 2026-08-03 12:00:00 -0300
 categories: projetos
+tags: [mobile, delivery, ui-ux, previa]
 ---
 
 # App de delivery urbano

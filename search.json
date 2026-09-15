@@ -1,0 +1,27 @@
+---
+layout: null
+---
+{% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" %}
+{% assign cv_page = site.pages | where: "title", "CV" | first %}
+[
+  {% for post in visible_posts %}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": "{{ post.url | relative_url }}",
+    "content": {{ post.content | strip_html | strip_newlines | truncatewords: 60 | jsonify }},
+    "categories": {{ post.categories | jsonify }},
+    "tags": {{ post.tags | jsonify }},
+    "type": {% if post.categories contains "projetos" %}"Projetos"{% elsif post.categories contains "blog" %}"Blog"{% else %}"Post"{% endif %}
+  },
+  {% endfor %}
+  {% if cv_page %}
+  {
+    "title": {{ cv_page.title | jsonify }},
+    "url": "{{ cv_page.url | relative_url }}",
+    "content": {{ cv_page.content | strip_html | strip_newlines | truncatewords: 60 | jsonify }},
+    "categories": [],
+    "tags": [],
+    "type": "CV"
+  }
+  {% endif %}
+]

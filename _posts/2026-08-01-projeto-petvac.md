@@ -3,6 +3,7 @@ layout: post
 title: "PetVac – controle de vacinação de pets"
 date: 2026-08-01 12:00:00 -0300
 categories: projetos
+tags: [react-native, fastify, typescript, mongodb, api-rest, mobile]
 ---
 
 # PetVac – controle de vacinação de pets
