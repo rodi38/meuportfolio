@@ -12,6 +12,17 @@ tagshort: Desenvolvedor FullStack
 author:
   name: Rodrigo Rocha
   email: rodrigorocha.dev0@gmail.com
+  url: "https://www.rodi38.com.br"
+
+# jekyll-seo-tag: powers the Person/WebSite JSON-LD sameAs links (helps Google
+# associate searches like "rodi38" or "rodrigo rocha" with this site)
+social:
+  name: Rodrigo Rocha
+  links:
+    - https://www.linkedin.com/in/rodrigo-rocha-ed1/
+    - https://github.com/rodi38
+    - https://stackoverflow.com/users/33011276/rodi38
+    - https://medium.com/@rodi38
 photo: assets/files/photo.png
 address: Fortaleza - CE, Brasil
 phone: +55 (85) 98802-8577
