@@ -1,3 +1,25 @@
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+
+.back-button {
+  display: flex;
+  color: var(--color-heading);
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+    border: none;
+
+    svg circle,
+    svg path {
+      stroke-width: 0.1em;
+    }
+  }
+}
+
 .particles-icon-highlight {
   svg {
     transform: scale(2.3);
