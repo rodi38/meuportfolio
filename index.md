@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# Sobre
+## Sobre
 
 Sou um desenvolvedor fullstack com experiência na criação e modernização de aplicações web e mobile, atuando tanto no ambiente dinâmico de software house tanto como freelancer. 
 
@@ -19,7 +19,7 @@ No meu [currículo](cv) é possível ver um pouco mais da minha tragetória e ha
 
 <!-- [projetos](portfolio) -->
 
-# Projetos
+## Projetos
 
 Acesse o meu [portfólio](portfolio) para conferir todos os meus projetos.
 

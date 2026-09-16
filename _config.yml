@@ -1,7 +1,7 @@
 title: Rodrigo Rocha
-description: Desenvolvedor FullStack, apaixonado por tecnologia e inovação. Com experiência em desenvolvimento web e mobile, busco sempre aprimorar minhas habilidades e contribuir para projetos desafiadores.
+description: Desenvolvedor FullStack especializado em Java, Node.js e React, criando aplicações web e mobile modernas e escaláveis.
 baseurl: ""
-url: "https://www.rodi38.com.br"
+url: "https://rodi38.com.br"
 theme: cvless
 
 # site settings
@@ -12,7 +12,7 @@ tagshort: Desenvolvedor FullStack
 author:
   name: Rodrigo Rocha
   email: rodrigorocha.dev0@gmail.com
-  url: "https://www.rodi38.com.br"
+  url: "https://rodi38.com.br"
 
 # jekyll-seo-tag: powers the Person/WebSite JSON-LD sameAs links (helps Google
 # associate searches like "rodi38" or "rodrigo rocha" with this site)
