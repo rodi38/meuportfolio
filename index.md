@@ -15,7 +15,7 @@ Também já tive experiência como QA, onde me especializei em análise de requi
 
 Por ultimo, atualmente atuo como desenvolvedor fullstack, atuando diretamente no desenvolvimento e evolução de sistemas novos e legados(sustentação).
 
-No meu [currículo](assets/files/cv.pdf) é possível ver um pouco mais da minha tragetória e habilidades.
+No meu [currículo](cv) é possível ver um pouco mais da minha tragetória e habilidades (também disponível em [PDF](assets/files/cv.pdf)).
 
 <!-- [projetos](portfolio) -->
 
