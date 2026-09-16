@@ -1,0 +1,16 @@
+.particles-icon-highlight {
+  svg {
+    transform: scale(2.3);
+    filter: drop-shadow(0 0 0.35em var(--oc-yellow-4));
+  }
+
+  svg circle,
+  svg path {
+    stroke: var(--oc-yellow-4) !important;
+  }
+
+  &:focus,
+  &:hover svg {
+    filter: drop-shadow(0 0 0.5em var(--oc-yellow-4));
+  }
+}
